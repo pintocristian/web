@@ -1,0 +1,125 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 1px;
+	padding: 0px;
+}
+body{
+	background-color:#e6eeff;
+}
+#container{
+	width: 80%;
+	border: 2px dashed blue;
+	margin: 0px auto ;
+	min-height: 400px;
+}
+#fotografia{
+	width:30%;
+	height:auto;
+}
+header{
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	text-align:  center;
+	background:  #003cb3;
+	color:white;
+	margin:0px;
+}
+nav ul li{
+	float:right;
+	color:black;
+	line-height:20px;
+	margin:10px;
+}
+
+a{
+	font-weight: bold;
+	color:#001133;
+	background:#b3ccff;
+}
+nav{
+	background: #6699ff;
+	height: 50px;
+	border:2px dashed #1a66ff
+}
+
+.divider{
+	clear:both;
+}
+
+#bio{
+	width: 60%;
+	min-height: 400px;
+	float:left;
+	text-align: left; 
+}
+#bio img{
+	width: 35%;
+	min-height: 400px;
+	float:left;
+	margin:5px;
+	border:1px dashed lightblue;
+}
+
+aside{
+	float:right;
+	background:#ADD8E6;
+	min-height:500px;
+	width: 20%;
+}
+footer{
+	line-height:30px; 
+	background:#6699ff;
+	text-align:center;
+	color:white;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+}
+
+dl{
+	padding: 20px;
+	background:#b3ccff;
+}
+dl dt{
+	background: #80aaff;
+	margin: 5px;
+	border:1px dashed #1a66ff;
+} 
+dl dd{
+	padding-left: 10px;
+	background: #e6eeff;
+	margin: 5px;
+}
+
+div.pasatiempos{
+	margin:5px;
+	border:1px solid #ccc;
+	float: left;
+	width: 600px;
+}
+div.pasatiempos img{
+	width:100%;
+	height:auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type=text]{
+	width: 95%;
+	padding: 12px 20px;
+	margin: 8px;
+	box-sizing: border-box;
+	border:none;
+	border-bottom: 2px solid grey; 
+}
+input[type=submit]{
+	width: auto;
+	margin: 5px; 
+	text-align: center;
+}
